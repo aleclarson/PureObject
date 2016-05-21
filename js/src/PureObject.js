@@ -1,4 +1,4 @@
-var Validator, getProto, wrongType;
+var PureObject, Validator, getProto, wrongType;
 
 Validator = require("Validator");
 
@@ -6,7 +6,7 @@ wrongType = require("wrongType");
 
 getProto = require("getProto");
 
-module.exports = Validator("PureObject", {
+module.exports = PureObject = Validator("PureObject", {
   test: function(value) {
     return value && !getProto(value);
   },
@@ -17,5 +17,9 @@ module.exports = Validator("PureObject", {
     return wrongType(this, key);
   }
 });
+
+PureObject.create = function() {
+  return Object.create(null);
+};
 
 //# sourceMappingURL=../../map/src/PureObject.map
