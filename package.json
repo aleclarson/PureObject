@@ -1,7 +1,7 @@
 {
   "name": "PureObject",
   "version": "1.0.0",
-  "main": "js/src/PureObject",
+  "main": "js/PureObject",
   "dependencies": {
     "Validator": "aleclarson/Validator#1.0.0",
     "wrongType": "aleclarson/wrongType#1.0.0",

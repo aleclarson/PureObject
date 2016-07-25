@@ -3,7 +3,6 @@ Validator = require "Validator"
 wrongType = require "wrongType"
 getProto = require "getProto"
 
-module.exports =
 PureObject = Validator "PureObject",
 
   test: (value) ->
@@ -13,5 +12,7 @@ PureObject = Validator "PureObject",
     return if @test value
     wrongType this, key
 
-PureObject.create = ->
-  Object.create null
+  create: ->
+    Object.create null
+
+module.exports = PureObject
