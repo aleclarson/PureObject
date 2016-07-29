@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "js/PureObject",
   "dependencies": {
-    "Validator": "aleclarson/Validator#1.0.0",
-    "wrongType": "aleclarson/wrongType#1.0.0",
-    "getProto": "aleclarson/getProto#1.0.0"
+    "Validator": "aleclarson/Validator#1.1.0",
+    "getProto": "aleclarson/getProto#1.0.0",
+    "wrongType": "aleclarson/wrongType#1.0.0"
   },
   "lotus": {
     "plugins": [
