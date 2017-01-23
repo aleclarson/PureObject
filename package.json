@@ -1,0 +1,10 @@
+{
+  "name": "PureObject",
+  "version": "1.0.1",
+  "main": "js/PureObject",
+  "dependencies": {
+    "Validator": "aleclarson/Validator#1.1.1",
+    "getProto": "aleclarson/getProto#1.0.0",
+    "wrongType": "aleclarson/wrongType#1.0.0"
+  }
+}
